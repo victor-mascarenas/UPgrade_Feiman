@@ -16,12 +16,12 @@ c) Table tags.
 3. Data tag.
 4. Header.
 4.1. Heading tag.
-4.2. Scopes.
 
 d) Table attributes.
 
 1. Deprecated attributes.
 2. Style for layout (recomendation).
+3. Scopes.
 
 e) Semantic tags.
 
