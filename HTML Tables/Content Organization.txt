@@ -1,0 +1,47 @@
+a) What is a table?
+
+1. What is a table.
+2. Table examples from the web.
+
+b) Table's do's & don'ts.(?)
+
+1. Correct use of tables (tabular data).
+2. What is tabular data.
+3. Incorrect use of tables (layout).
+
+c) Table tags.
+
+1. Table tag.
+2. Row tag.
+3. Data tag.
+4. Header.
+4.1. Heading tag.
+4.2. Scopes.
+
+d) Table attributes.
+
+1. Deprecated attributes.
+2. Style for layout (recomendation).
+
+e) Semantic tags.
+
+1. What & why?
+2. Head tag.
+3. Body tag.
+4. Footer tag.
+
+f) Captions.
+
+1. What for?
+2. Caption tag.
+
+g) Table span's.
+
+1. Column span.
+2. Row span.
+
+h) Grouping.
+
+1. What for?
+2. Colgroup tag.
+3. Col tag.
