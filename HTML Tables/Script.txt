@@ -1,0 +1,91 @@
+a) What is a table?
+
+1. What is a table.
+
+- What is a table? Well, we all have seen a table before, a table is an element used for displaing data in the form of rows and columns (different table examples are shown).
+
+2. Table examples from the web.
+
+- In HTML, we can create our own tables to display data. (diferent HTML table examples are shown)
+- On this example we see a simple HTML table, it has rows and columns containing the data, and a header which indicates the data element that each column holds.
+
+b) Correct use.
+
+- Now, before we go ahead, we need to talk about the correct use of tables in HTML, it may look pretty straight forward but tables are often misused in HTML.
+
+1. Correct use of tables (tabular data).
+
+- As tables are defined, HTML tables are supposed to be used to display data, tabular data to be precise...
+
+2. What is tabular data.
+
+- And what is tabular data? well, it is essentially data wich can be shown in a table.
+- So, let's say we have 3 fruits: mango, pineapple and kiwi (fruits are shown in a text manner), in order to present this data, we could use a table (fruits are shown in a table), but, is it really necessary? it depends on what you are doing, but probably it isn't, we could just use a list (fruits are shown in a list).
+- Instead, if we had a bigger piece of data like this JSON file (a JSON file is shown) wich contains customers information, maybe a table would be useful.
+
+3. Incorrect use of tables (layout).
+
+- So that is the correct use of tables in HTML, but whats is the incorrect way? well, let's say I have to create a web page that need's to be portrayed in a "3 column way" (a page like this is shown) and I use a table for it (an X is shown over the example), that is an example of an incorrect use, tables are not supposed to be used for layout purposes, just for tabular data.
+- For this previous example (the example is shown again), in order to achieve a 3 column page, you should use a layout in CSS like the grid layout.
+- Using a table for layout is not a good practice.
+
+c) Table tags.
+
+- Ok, now we can go for creating a table.
+- First of all let's create a simple web page (a web page is created).
+- Now that we have our page we can create a table.
+
+1. Table tag.
+
+- What do we need for this? we need the table tag (the tag is shown in a text manner), which represents the main container of the table, let's do it (table tag is added).
+
+2. Row tag.
+
+- Next, we need to add some rows to it, for that we have the TR and TD tags (tags are shown in a text manner), which stands for table row and table data.
+
+3. Data tag.
+
+- The TD tag can be translated to table cells or columns if you want to.
+- Let's add our first row (row is added), there we go, but nothing is getting displayed in the page, so now we need to add some TD tags.
+- If the TR tag stands for a row, each TD tag we add inside will mean a column (TD tags are added into TR).
+- Now we can see that the 4 customers we add as TD's inside our row are showing as 4 separate columns (the page is shown).
+- But right now our table only has 1 row, let's add more, if we copy the TR and paste it 4 times below (copies the row), we end up having 5 rows (page is shown).
+- So, we have a couple of rows but someting is mising, we need a header.
+
+4. Header.
+
+- In order to add a header, we need to add another row right after the table tag, before the other rows, let's do that (adds a row).
+
+4.1. Heading tag.
+
+- But for it to be a header, we are going to use the TH tag insead of the TD (changes the tag).
+- And now we can see that our new row appears with bold text, because the TH tag defines a cell as a header.
+
+d) Table attributes.
+
+1. Deprecated attributes.
+2. Style for layout (recomendation).
+3. Scopes.
+
+e) Semantic tags.
+
+1. What & why?
+2. Head tag.
+3. Body tag.
+4. Footer tag.
+
+f) Captions.
+
+1. What for?
+2. Caption tag.
+
+g) Table span's.
+
+1. Column span.
+2. Row span.
+
+h) Grouping.
+
+1. What for?
+2. Colgroup tag.
+3. Col tag.
