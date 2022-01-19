@@ -1,0 +1,13 @@
+a) Web Pages
+
+1. W3Schools. HTML Tables. https://www.w3schools.com/html/html_tables.asp
+2. MDN Web Docs. <table>:The table element. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+3. Tutorials Point. HTML - Tables. https://www.tutorialspoint.com/html/html_tables.htm
+4. Free Code Camp. HTML Tables - Table Tutorial with Example Code. https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/
+
+b) Videos
+
+1. LearnWebCode. (26th November 2012). HTML Tables Tutorial [video file]. YouTube. https://www.youtube.com/watch?v=BczLWImAmBk
+2. Dani Krossing. (11th February 2018). 25: Table In HTML and CSS | How To Create Tables | Learn HTML and CSS | HTML Tutorial | CSS Tutorial [video file]. YouTube. https://www.youtube.com/watch?v=dK27jWKtJxs
+3. Framework Tech Media. (17th February 2021). Html Tables for Beginners | Tables in HTML email [video file]. YouTube. https://www.youtube.com/watch?v=OKe2l9nOlj0
+4. London App Brewery. (28th April 2020). HTML Tables [video file]. YouTube. https://www.youtube.com/watch?v=qA3XlAr5Krs
