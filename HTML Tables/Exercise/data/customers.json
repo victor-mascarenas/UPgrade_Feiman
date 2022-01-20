@@ -1,0 +1,49 @@
+{
+    "customers": [
+        {
+            "id": "C10",
+            "name": {
+                "fname": "Edward",
+                "lname": "Smith"
+            },
+            "age": 32,
+            "zip": "857463"
+        },
+        {
+            "id": "C20",
+            "name": {
+                "fname": "Jaiden",
+                "lname": "Brown"
+            },
+            "age": 19,
+            "zip": "856497"
+        },
+        {
+            "id": "C30",
+            "name": {
+                "fname": "Melina",
+                "lname": "Davies"
+            },
+            "age": 24,
+            "zip": "329485"
+        },
+        {
+            "id": "C40",
+            "name": {
+                "fname": "Anna",
+                "lname": "Taylor"
+            },
+            "age": 30,
+            "zip": "546982"
+        },
+        {
+            "id": "C50",
+            "name": {
+                "fname": "Richard",
+                "lname": "Johnson"
+            },
+            "age": 40,
+            "zip": "719346"
+        }
+    ]
+}
