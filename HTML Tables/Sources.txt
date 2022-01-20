@@ -4,6 +4,7 @@ a) Web Pages
 2. MDN Web Docs. <table>:The table element. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
 3. Tutorials Point. HTML - Tables. https://www.tutorialspoint.com/html/html_tables.htm
 4. Free Code Camp. HTML Tables - Table Tutorial with Example Code. https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/
+5. W3Schools. HTML Semantic Elements. https://www.w3schools.com/html/html5_semantic_elements.asp
 
 b) Videos
 
