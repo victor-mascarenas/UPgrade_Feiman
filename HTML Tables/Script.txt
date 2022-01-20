@@ -21,7 +21,7 @@ b) Correct use.
 
 - And what is tabular data? well, it is essentially data wich can be shown in a table.
 - So, let's say we have 3 fruits: mango, pineapple and kiwi (fruits are shown in a text manner), in order to present this data, we could use a table (fruits are shown in a table), but, is it really necessary? it depends on what you are doing, but probably it isn't, we could just use a list (fruits are shown in a list).
-- Instead, if we had a bigger piece of data like this JSON file (a JSON file is shown) wich contains customers information, maybe a table would be useful.
+- In the other hand, if we had a bigger piece of data like this JSON file (a JSON file is shown) wich contains customers information, maybe a table would be useful.
 
 3. Incorrect use of tables (layout).
 
@@ -33,11 +33,11 @@ c) Table tags.
 
 - Ok, now we can go for creating a table.
 - First of all let's create a simple web page (a web page is created).
-- Now that we have our page we can create a table.
+- Now that we have our page we can go ahead.
 
 1. Table tag.
 
-- What do we need for this? we need the table tag (the tag is shown in a text manner), which represents the main container of the table, let's do it (table tag is added).
+- What do we need to create a table? we need the table tag (the tag is shown in a text manner), which represents the main container of the table, let's do it (table tag is added).
 
 2. Row tag.
 
@@ -54,7 +54,7 @@ c) Table tags.
 
 4. Header.
 
-- In order to add a header, we need to add another row right after the table tag, before the other rows, let's do that (adds a row).
+- In order to add a header, we need to add another row right after the table tag, before the other rows (adds a row).
 
 4.1. Heading tag.
 
@@ -63,29 +63,85 @@ c) Table tags.
 
 d) Table attributes.
 
+- There are a couple of attributes we can add to a table (HTML is shown with the attributes)...
+
 1. Deprecated attributes.
+
+- But actually this attributes are now deprecated...
+
 2. Style for layout (recomendation).
+
+- Because you should use css styling instead.
+- Besides this attributes, there are others you can use like 'scope' (attribute shown as text).
+
 3. Scopes.
+
+- The 'scope' attribute is related to headers, in our example (page is shown) we have our headers on top, but we can also add headers to the side (example is shown), and for this we can add some scoped headers.
+- If we go to the table's header, I can add the 'scope' attribute to each TH tag and set it as 'column' (adds sttribute).
+- So, in order to create some side headers I'm going to add a TH tag inside each row (does it).
+- But this time I'm setting the scope attribute as 'row' (doest it).
+- And there we go, you can see now we have some side headers in our table.
+- But there is something I want to show yo, I'm going to remove the 'scope' attribute from all TH tag (does it), you can see that nothing changes in our page, it still the same, why? Well, the 'scope' tag doesn't precisely reflects on the page, it's more used as an accesibility resource, for example, it can be used by screen readers, so you see, setting the 'scope' attribute for the headers is actually a good practice.
 
 e) Semantic tags.
 
+- Ok, now it's time to talk about semantic tags.
+
 1. What & why?
+
+- When HTML 5 arrived it came with something called semantic tags, wich are ment to add a better content organization to both developers and web browsers, and it came with 3 semantic tags for tables: thead, tbody and tfoot.
+
 2. Head tag.
+
+- The thead tag stands for the header part of the table, so I'm adding a thead tag right after the tbale tag, and now I'm coping the first row with our columns headers and pasting it inside our thead tag. Now we have defined the header part of our table.
+
 3. Body tag.
+
+- Just as the thead, the tbody tag is meant to define the body of the table, so, I'm adding a tbody tag after the thead, and pasting the rest of the rows inside it.
+
 4. Footer tag.
+
+- At the end, we can also add a tfoot tag in order to define the footer of our table, let's add it at the end.
+- Sometimes it could be not necesary, but let's say you have a large table and you want to repeat the column names at the end, so I'm adding a row inside the tfoot tag.
+- And there we go, we have defined the table's content. Don't forget as I said before, this tags are only menat for structuring and content organization.
 
 f) Captions.
 
+- There is another tag we can include inside the table, which is the 'caption' tag.
+
 1. What for?
+
+- You can take the caption tag as a name or description for the table, so, I'm adding the tag before anything else inside the table.
+
 2. Caption tag.
+
+- And now our table is shown with a text on top.
+- It's also a good practice to place the caption tag as the first one in the table.
 
 g) Table span's.
 
+- What if you want to expand a table cell to another row o column? Well, you can use the 'rowspan' and 'colspan attributes'.
+
 1. Column span.
+
+- Let's say I want this cell to expand to the next column, so let's add the 'colspan' attribute and set it as 2 (comment), which means that the cell will be using 2 column spaces beggining on it's current position.
+- Now you can see the cell is using 2 spaces.
+
 2. Row span.
+
+- And the same happens for rows, if we need to expand a cell to the next row, we have to add the 'rowspan' attribute and set it also as 2 (comment).
+- That's how we span cells along the table.
 
 h) Grouping.
 
+- So, there is one last thing I want to cover, and it is called grouping.
+
 1. What for?
-2. Colgroup tag.
-3. Col tag.
+
+- Grouping allow us to create some column groups, so insead of applying some properties to each column, we can assign them to the group.
+
+2. Colgroup & col tags.
+
+- Let's see, I added a colgroup tag after the caption tag, by the way thats the recommended order for the tags. Inside the colgroup you can see I added 5 'col' tags, which represents each column in the table.
+- I have prepared some style for this example, I'm goning to add a class 'blue' to each col, you can see that the background of each column has turned to blue, but now I want to set a different color for the columns, so, I'm adding a class 'red' to the last 3 col's, you can see I'm leaving only 2 col tags instead of 5, and I'm adding another attribute called 'span', setting it to 2 for the first col and 3 for the second one, now the columns are shown with different background colors.
+- You can also separate the red and blue columns into 2 separated groups and it will work just fine.
