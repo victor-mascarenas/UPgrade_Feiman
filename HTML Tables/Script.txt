@@ -1,8 +1,10 @@
+- Hello, welcome, my name is Victor and I am going to show you how to create tables in HTML.
+
 a) What is a table?
 
 1. What is a table.
 
-- What is a table? Well, we all have seen a table before, a table is an element used for displaing data in the form of rows and columns (different table examples are shown).
+- Lest's start with the basics, what is a table? Well, we all have seen a table before, a table is an element used for displaing data in the form of rows and columns (different table examples are shown).
 
 2. Table examples from the web.
 
@@ -27,11 +29,28 @@ b) Correct use.
 
 - So that is the correct use of tables in HTML, but whats is the incorrect way? well, let's say I have to create a web page that need's to be portrayed in a "3 column way" (a page like this is shown) and I use a table for it (an X is shown over the example), that is an example of an incorrect use, tables are not supposed to be used for layout purposes, just for tabular data.
 - For this previous example (the example is shown again), in order to achieve a 3 column page, you should use a layout in CSS like the grid layout.
-- Using a table for layout is not a good practice.
+- Always remember, using a table for layout is not a good practice.
+
+[Code editor section]
+
+- Before we go jump into some code, let me show you what you need and what I'm gonna be using for coding during the video.
+- First thing you need is a code editor, if you don't know what that is don't worry I'll explain: you can understand a code editor as an app which allows you to create code files like some programing languages and of course HTML pages.
+- My personal choise is Visual Studio Code, if you have a bit more experience and you have your own choise feel free to use it.
+- So, if you are following me, just go to 'code.visualstudio.com', click on download and follow the installer's instructions.
+- Also, something else you will se is that I'm not reloading the page after each change I make, that's because I'm using an extension. If you go to the left side you are going to find 5 sections, explorer, search, source control, run & debug, and extensions, if you are following me just look for live... server, this one right here, it's already installed for me, you click on it, then you click on install and thats it.
+
+[]
 
 c) Table tags.
 
 - Ok, now we can go for creating a table.
+
+[Creating folder]
+
+- Create a folder on your desktop and then open it in VS Code.
+
+[]
+
 - First of all let's create a simple web page (a web page is created).
 - Now that we have our page we can go ahead.
 
@@ -145,3 +164,5 @@ h) Grouping.
 - Let's see, I added a colgroup tag after the caption tag, by the way thats the recommended order for the tags. Inside the colgroup you can see I added 5 'col' tags, which represents each column in the table.
 - I have prepared some style for this example, I'm goning to add a class 'blue' to each col, you can see that the background of each column has turned to blue, but now I want to set a different color for the columns, so, I'm adding a class 'red' to the last 3 col's, you can see I'm leaving only 2 col tags instead of 5, and I'm adding another attribute called 'span', setting it to 2 for the first col and 3 for the second one, now the columns are shown with different background colors.
 - You can also separate the red and blue columns into 2 separated groups and it will work just fine.
+
+- And with this we just finished HTML tables, feel free to ask any questions and thanks for your time, see you next time.
