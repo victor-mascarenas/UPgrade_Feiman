@@ -1,6 +1,9 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background: #423F3E;
+}
 caption {
     color: rgb(83, 179, 182);
     font-size: 2em;
@@ -9,7 +12,10 @@ caption {
     text-align: left;
 }
 table {
+    background: white;
+    border: solid 10px transparent;
     border-collapse:collapse;
+    border-radius: .8em;
     width: 100%;
 }
 tbody td {
@@ -26,10 +32,22 @@ tfoot td {
     padding: .5em;
     text-align: center;
 }
+tfoot td:first-child {
+    border-radius: 0px 0px 0px .5em;
+}
+tfoot td:last-child {
+    border-radius: 0px 0px .5em 0px;
+}
 th[scope='col'] {
     background-color: rgb(224, 224, 224);
     font-size: 1.5em;
     padding: 5px 0px 5px 5px;
+}
+th[scope='col']:first-child {
+    border-radius: .5em 0px 0px 0px;
+}
+th[scope='col']:last-child {
+    border-radius: 0px .5em 0px 0px;
 }
 tr {
     transition: all .5s;
