@@ -1,12 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+caption {
+    color: rgb(83, 179, 182);
+    font-size: 2em;
+    font-style: italic;
+    padding: .5em;
+    text-align: left;
+}
 table {
     border-collapse:collapse;
     width: 100%;
 }
-td {
+tbody td {
     border-bottom: 2px solid rgb(185, 185, 185);
     padding: 0.5em;
 }
-th {
+tbody tr:hover {
+    color: white;
+    background-color: rgb(185, 185, 185);
+}
+tfoot td {
+    background-color: rgb(224, 224, 224);
+    font-weight: bold;
+    padding: .5em;
+    text-align: center;
+}
+th[scope='col'] {
     background-color: rgb(224, 224, 224);
     font-size: 1.5em;
     padding: 5px 0px 5px 5px;
@@ -14,7 +34,11 @@ th {
 tr {
     transition: all .5s;
 }
-tr:hover {
-    color: white;
-    background-color: rgb(185, 185, 185);
+
+.brownish {
+    background-color: rgba(165, 42, 42, 0.2);
+}
+.blueish {
+    background-color: rgba(68, 68, 190, 0.2);
+    width: 8em;
 }

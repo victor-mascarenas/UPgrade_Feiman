@@ -9,11 +9,19 @@
 </head>
 <body>
     <table>
+        <caption>Coustomers table</caption>
+        <colgroup>
+            <col>
+            <col span="2" class="brownish">
+        </colgroup class="w">
+            <col span="2" class="blueish">
+        <colgroup>
+        </colgroup>
         <thead>
             <tr>
                 <th scope="col">Id</th>
-                <th scope="col">First name</th>
-                <th scope="col">Last name</th>
+                <th scope="col" colspan="2">Full name</th>
+                <!-- <th scope="col">Last name</th> -->
                 <th scope="col">Age</th>
                 <th scope="col">Zip code</th>
             </tr>
@@ -55,6 +63,15 @@
                 <td>719346</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td>Id</td>
+                <td>First name</td>
+                <td>Last name</td>
+                <td>Age</td>
+                <td>ZIP code</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
