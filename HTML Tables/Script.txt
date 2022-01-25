@@ -1,15 +1,16 @@
-- Hello, welcome, my name is Victor and I am going to show you how to create tables in HTML.
+- Hello, my name is Victor, I'm an Application Developer for Atos and I am going to show you how to create tables in HTML.
+- Through this video I will cover some things, we are starting with an overview, then we are going to talk about the correct use of tables in HTML, table tags and attributes, semantics, captions, cell spanning and column grouping.
 
 a) What is a table?
 
 1. What is a table.
 
-- Lest's start with the basics, what is a table? Well, we all have seen a table before, a table is an element used for displaing data in the form of rows and columns (different table examples are shown).
+- Lets's start with the basics, what is a table? Well, we all have seen a table before, a table is an element used for displaing data in the form of rows and columns (different table examples are shown).
 
 2. Table examples from the web.
 
 - In HTML, we can create our own tables to display data. (diferent HTML table examples are shown)
-- On this example we see a simple HTML table, it has rows and columns containing the data, and a header which indicates the data element that each column holds.
+- On this example we see a simple HTML table, it has rows and columns containing the data, and a header which indicates the data element each column holds.
 
 b) Correct use.
 
