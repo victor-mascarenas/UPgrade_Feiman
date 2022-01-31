@@ -1,0 +1,12 @@
+a) Web Pages
+
+{Page/organization name}. {page title}. {url}
+1. Wikipedia. Sass (stylesheet language). https://en.wikipedia.org/wiki/Sass_(stylesheet_language)
+2. Sass. Sass Basics. https://sass-lang.com/guide
+
+b) Videos
+
+{Channel name}. {(date)}. {video name [video file]}. {Web site name}. {url}
+1. Fireship. (26th November 2012). Sass in 100 seconds [video file]. YouTube. https://www.youtube.com/watch?v=akDIJa0AP5c
+2. LevelUpTuts. (27th Februari 2012). Sass Titorials #5 - Selector Inheritance [video file]. YouTube. https://www.youtube.com/watch?v=6RpGMKjRkRw
+3. The Net Ninja. (7th September 2021). SASS Tutorial (build your own CSS library) #15 - Media Queries [video file]. YouTube. https://www.youtube.com/watch?v=3R4fpnIAozs
