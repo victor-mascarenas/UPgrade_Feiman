@@ -3,6 +3,8 @@ a) Web Pages
 {Page/organization name}. {page title}. {url}
 1. Wikipedia. Sass (stylesheet language). https://en.wikipedia.org/wiki/Sass_(stylesheet_language)
 2. Sass. Sass Basics. https://sass-lang.com/guide
+3. Sass. Variables. https://sass-lang.com/documentation/variables
+4. Sass. Built-In Modules. https://sass-lang.com/documentation/modules
 
 b) Videos
 

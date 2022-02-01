@@ -11,23 +11,23 @@ SASS Contents
 - Reading ease.
 
 3. Inheritance.
-4. Mixins.
+4. Variables.
+
+- CSS variables vs SASS.
+
+5. Modules (partials).
+6. Mixins.
 
 - Conditionals.
 - Media queries.
 
     - Reutilizable media queries (@content).
+    - Maps.
 
 - Arguments.
 
-5. Variables.
-
-- Maps.
-
-6. Operators.
-7. Functions.
+7. Operators.
+8. Functions.
 
 - Loops.
 - Built-in functions.
-
-8. Modules (partials).

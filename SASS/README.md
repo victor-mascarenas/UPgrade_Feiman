@@ -13,18 +13,19 @@ This folder contains the content organization list, script & practical example f
 2. Nesting.
     1. Reading ease.
 3. Inheritance.
-4. Mixins.
+4. Variables.
+    1. CSS variables vs SASS.
+5. Modules (partials).
+6. Mixins.
     1. Conditonals.
     2. Media queries.
         1. Reutilizable media queries.
+        2. Maps.
     3. Arguments.
-5. Variables.
-    1. Maps.
-6. Operators.
-7. Functions.
+7. Operators.
+8. Functions.
     1. Loops.
     2. Built-in functions.
-8. Modules (partials).
 
 ## Sources
 
@@ -32,6 +33,8 @@ This folder contains the content organization list, script & practical example f
 
 1. Wikipedia. Sass (stylesheet language). https://en.wikipedia.org/wiki/Sass_(stylesheet_language).
 2. Sass. Sass Basics. https://sass-lang.com/guide.
+3. Sass. Variables. https://sass-lang.com/documentation/variables.
+4. Sass. Built-In Modules. https://sass-lang.com/documentation/modules.
 
 ### Videos
 
