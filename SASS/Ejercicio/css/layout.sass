@@ -1,5 +1,9 @@
+$body-color: #072227
+$square-color: #35858B
+$border-color: white
+    
 body
-    background: #072227
+    background: $body-color
     display: flex
     justify-content: center
     margin: 0px
@@ -13,7 +17,7 @@ section
     height: auto
     width: auto
     .square
-        background: #35858B
+        background: $square-color
         border-radius: 0.5em
         color: white
         font-size: 1.5em
@@ -26,4 +30,4 @@ section
             font-weight: normal
     .square-border
         @extend .square
-        border: solid 2px white
+        border: solid 2px $border-color
