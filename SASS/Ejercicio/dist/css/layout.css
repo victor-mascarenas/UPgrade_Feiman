@@ -24,7 +24,7 @@ section {
   width: auto;
 }
 
-section div {
+section .square, section .square-border {
   background: #35858B;
   border-radius: 0.5em;
   color: white;
@@ -35,8 +35,12 @@ section div {
   width: 150px;
 }
 
-section div p {
+section .square p, section .square-border p {
   font-size: 0.8em;
   font-weight: normal;
+}
+
+section .square-border {
+  border: solid 2px white;
 }
 /*# sourceMappingURL=layout.css.map */
