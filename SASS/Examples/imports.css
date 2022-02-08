@@ -1,0 +1,11 @@
+@import 'imports2.css';
+
+section {
+    height: 100px;
+    width: 100px;
+}
+
+section .classOne {
+    height: 50px;
+    width: 50px;
+}

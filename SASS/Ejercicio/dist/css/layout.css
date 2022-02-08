@@ -24,7 +24,7 @@ section {
   width: auto;
 }
 
-section .square, section .square-border {
+section .square, section .square-border, section .square-transparent, section .square-reverse {
   background: #35858B;
   border-radius: 0.5em;
   color: white;
@@ -35,12 +35,35 @@ section .square, section .square-border {
   width: 150px;
 }
 
-section .square p, section .square-border p {
+section .square p, section .square-border p, section .square-transparent p, section .square-reverse p {
   font-size: 0.8em;
   font-weight: normal;
 }
 
 section .square-border {
   border: solid 2px white;
+}
+
+section .square-transparent {
+  border: solid 2px #32b5be;
+  -webkit-transition: border .5s;
+  transition: border .5s;
+  background: transparent;
+}
+
+section .square-transparent:hover {
+  border-width: 5px;
+}
+
+section .square-reverse {
+  border: solid 2px #32b5be;
+  -webkit-transition: border .5s;
+  transition: border .5s;
+  color: #35858B;
+  background: white;
+}
+
+section .square-reverse:hover {
+  border-width: 10px;
 }
 /*# sourceMappingURL=layout.css.map */

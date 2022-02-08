@@ -1,0 +1,19 @@
+.class1 {
+    background: black;
+    border: solid 5px gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.class2 {
+    background: blue;
+    border-radius: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bold;
+}
+.class3 {
+    background: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    margin: .5em;
+}

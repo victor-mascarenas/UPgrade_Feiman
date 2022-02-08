@@ -1,5 +1,6 @@
 @import 'colors'
-    
+@import 'mixins'
+
 body
     background: $body-color
     display: flex
@@ -29,3 +30,12 @@ section
     .square-border
         @extend .square
         border: solid 2px $border-color
+    .square-transparent
+        @extend .square
+        @include square-border
+        background: transparent
+    .square-reverse
+        @extend .square
+        @include square-border(10px)
+        color: $square-color
+        background: white
